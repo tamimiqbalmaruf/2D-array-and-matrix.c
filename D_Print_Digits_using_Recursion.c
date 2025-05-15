@@ -22,6 +22,11 @@ int main()
     {
         int value;
         scanf("%d", &value);
+        if (value == 0)
+        {
+            printf("0");
+        }
+
         rec(value);
         printf("\n");
     }
